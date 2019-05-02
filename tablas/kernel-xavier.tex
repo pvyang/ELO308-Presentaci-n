@@ -1,0 +1,15 @@
+\begin{table}[]
+\centering
+
+\begin{tabular}{lcc}
+\toprule
+Kernel      & \multicolumn{1}{l}{Critical path {[}\%{]}} & \multicolumn{1}{l}{Critical path {[}s{]}} \\
+\midrule
+cuDNN GEMM         & 58.65                                      & 5.47                                      \\
+Caffe im2col & 7.7                                        & 0.74                                      \\
+CPU other    & 5.84                                       & 0.56                                      \\
+Caffe ReLU   & 0.84                                       & 0.08    \\
+\bottomrule
+\end{tabular}
+
+\end{table}

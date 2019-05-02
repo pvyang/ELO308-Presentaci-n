@@ -1,0 +1,16 @@
+
+
+\begin{table}[]
+\centering
+
+\begin{tabular}{lccccc}
+\toprule
+Llamada API              & Critical path {[}\%{]} & Critical path {[}s{]} & Tiempo espera {[}s{]} \\
+\midrule
+Stream create with flags & 28.14                  & 25.41                 & 0.00                  \\
+cuda Free                 & 1.82                   & 1.64                  & 0.00                  \\
+cuda Event Synchronize        & 0.64                   & 0.58                  & 58.58                \\
+\bottomrule
+\end{tabular}
+
+\end{table}

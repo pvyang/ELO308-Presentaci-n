@@ -1,0 +1,53 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}
+
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{Madrid}       % or try default, Darmstadt, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{serif}    % or try default, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\PassOptionsToPackage{demo}{graphics}
+\usepackage{pgfpages}
+\usepackage{booktabs}
+\pgfpagesuselayout{resize to}[%
+  physical paper width=8in, physical paper height=6in]
+
+
+\title[]{Caracterización computacional de algoritmo de segmentación de fuego y humo basado en redes neuronales convolucionales}
+\author{Paola Yang}
+\institute{UTFSM}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+\input{00-intro.tex}
+\input{01-estado-del-arte.tex}
+\input{02-resultados-tiempo.tex}
+\input{03-resultados-consumo.tex}
+\input{04-conclusion.tex}
+\input{05-anexo.tex}
+
+
+
+\end{document}

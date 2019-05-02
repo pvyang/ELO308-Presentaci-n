@@ -1,0 +1,15 @@
+\begin{table}[]
+\centering
+\caption{Análisis de dependencias framework Tensorflow.}
+\begin{tabular}{lcc}
+\toprule
+Llamada API              & Critical path \% & Critical path {[}ms{]} \\
+\midrule
+cudaFree                 & 74.75            & 790.985            \\
+cuDevicePrimaryCtxRetain & 7.05             & 74.555             \\
+cuMemAlloc\_v2           & 0.33             & 3.519               \\
+cuMemHostAlloc           & 0.12             & 1.274              \\
+\bottomrule
+\end{tabular}
+\label{api-tensorflow}
+\end{table}

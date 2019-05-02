@@ -1,0 +1,112 @@
+\section{Resultados}
+
+\begin{frame}
+\centering
+\huge
+Resultados de tiempo 
+    
+\end{frame}
+
+\begin{frame}{Tiempos de inferencia}
+
+\framesubtitle{DIGITS}
+	\begin{columns}
+		\column{.1\textwidth}
+ \includegraphics[width=1\textwidth]{diagrama/frame1.pdf}
+        
+        \column{.85\textwidth}
+	\begin{figure}[H]
+	\centering
+ \includegraphics[width=1\textwidth]{barplot/digits.pdf}
+	\end{figure}
+	\end{columns}
+ 
+\end{frame}
+
+
+
+\begin{frame}{Tiempos de inferencia}
+
+\framesubtitle{Caffe}
+	\begin{columns}
+		\column{.1\textwidth}
+ \includegraphics[width=1\textwidth]{diagrama/frame2.pdf}
+        
+        \column{.85\textwidth}
+	\begin{figure}[H]
+	\centering
+ \includegraphics[width=0.7\textwidth]{barplot/avg-fire.pdf}
+	\end{figure}
+	\end{columns}
+ 
+\end{frame}
+
+
+
+
+
+\begin{frame}{Tiempos por capa}
+\framesubtitle{FCN AlexNet}
+	\centering
+ \includegraphics[width=1\textwidth]{barplot/layers-alex.pdf}
+
+\end{frame}
+
+\begin{frame}{Tiempos por capa}
+\framesubtitle{Simple Feature Extraction}
+	\centering
+ \includegraphics[width=0.7\textwidth]{barplot/layers-sfe.pdf}
+
+\end{frame}
+
+
+
+ 
+\begin{frame}{Tiempos por función}
+\framesubtitle{Análisis de dependencias Jetson TX2}
+\centering
+\resizebox{0.75\linewidth}{!}{
+\input{tablas/kernel-tx2.tex}
+}
+\end{frame}
+
+
+\begin{frame}{Tiempos por función}
+\framesubtitle{Análisis de dependencias Jetson AGX Xavier}
+\centering
+\resizebox{0.75\linewidth}{!}{
+\input{tablas/kernel-xavier.tex}
+}
+\end{frame}
+
+
+
+\begin{frame}{Tiempos por llamada API CUDA}
+	\begin{columns}
+		\column{.1\textwidth}
+ \includegraphics[width=1\textwidth]{diagrama/frame4.pdf}
+        
+        \column{.85\textwidth}
+	\begin{figure}[H]
+	\centering
+ \includegraphics[width=0.7\textwidth]{barplot/gpu-act.pdf}
+	\end{figure}
+	\end{columns}
+\end{frame}
+ 
+\begin{frame}{Tiempos por llamada de API CUDA}
+\framesubtitle{Análisis de dependencias Jetson TX2}
+\resizebox{\linewidth}{!}{
+\input{tablas/api-tx2.tex}
+}
+\end{frame}
+
+
+\begin{frame}{Tiempos por llamada de API CUDA}
+\framesubtitle{Análisis de dependencias Jetson AGX Xavier}
+\resizebox{\linewidth}{!}{
+\input{tablas/api-xavier.tex}
+}
+\end{frame}
+
+

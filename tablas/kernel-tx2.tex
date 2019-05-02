@@ -1,0 +1,17 @@
+
+
+\begin{table}[]
+\centering
+
+\begin{tabular}{lcc}
+\toprule
+Kernel   & Critical path {[}\%{]} & Critical path {[}s{]} \\
+\midrule
+cuDNN GEMM      & 43.84                  & 39.56                  \\
+cuDNN ReLU      & 7.47                   & 6.75                   \\
+CPU other & 5.5                    & 4.96                   \\
+cuDNN Winograd  & 2.73                   & 2.46       \\
+\bottomrule
+\end{tabular}
+
+\end{table}

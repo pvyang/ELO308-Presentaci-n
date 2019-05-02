@@ -1,0 +1,17 @@
+\begin{table}[]
+
+\centering
+ \caption{Análisis de dependencias framework Caffe.}
+\begin{tabular}{lcc}
+\toprule
+Llamada API               & Critical path \% & Critical path {[}ms{]} \\
+\midrule
+cuModuleUnload            & 37.09            & 393.900             \\
+cudaMalloc                & 17.26            & 183.262\\
+cuDevicePrimaryCtxRelease & 3.9              & 41.448              \\
+cudaFree                  & 0.83             & 8.821
+\\
+\bottomrule
+\end{tabular}
+\label{api-caffe}
+\end{table}
